@@ -10,6 +10,6 @@ Initialize repo:
 
     . build/envsetup.sh && lunch
 
-    Choose full_aries-userdebug
+    Choose aries-userdebug
 
     make otapackage -j16
