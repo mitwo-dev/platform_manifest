@@ -40,6 +40,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/xiaomi/aries" name="mitwo-dev/android_device_xiaomi_aries" remote="github" revision="android-4.3" />
+  <project path="device/xiaomi/taurus" name="mitwo-dev/android_device_xiaomi_taurus" remote="github" revision="android-4.3" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
