@@ -68,7 +68,7 @@
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+<!--  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" /> -->
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -363,7 +363,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+<!--  <project path="system/vold" name="platform/system/vold" groups="pdk" /> -->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -376,4 +376,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/xiaomi" name="mitwo-dev/proprietary_vendor_xiaomi" remote="github" revision="android-4.3" />
 
+<!-- Merge From CM  For filesystem -->
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat"  remote="github" revision="cm-10.2"/>
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse"  remote="github" revision="cm-10.2"/>
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g"  remote="github" revision="cm-10.2"/>
+  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk"  remote="github" revision="cm-10.2"/>
+  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="github" revision="cm-10.2"/>
 </manifest>
