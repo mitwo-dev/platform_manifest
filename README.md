@@ -1,6 +1,6 @@
-manifests to build Android 4.3 for Xiaomi Mi2.
+manifests to build Android 4.3 for Xiaomi Mi2/2S/2A.
 
-How to build:
+How to build MI2/2S:
 -------------
 
 Initialize repo:
@@ -11,5 +11,13 @@ Initialize repo:
     . build/envsetup.sh && lunch
 
     Choose aries-userdebug
+
+    make otapackage -j16
+
+How to build MI2A:
+
+    . build/envsetup.sh && lunch
+
+    Choose taurus-userdebug
 
     make otapackage -j16
