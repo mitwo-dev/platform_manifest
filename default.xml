@@ -6,7 +6,10 @@
            review="android-review.googlesource.com" />
 
   <remote  name="github"
-           fetch=".." />
+           fetch="https://github.com" />
+           
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
 
   <default revision="refs/tags/android-4.4_r1"
            remote="aosp"
